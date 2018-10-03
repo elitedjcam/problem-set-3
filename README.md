@@ -12,30 +12,30 @@ To get started, you'll need to create a [GitHub](https://github.com/) repository
 02. In GitBash, navigate to your `APCSP` folder.
 03. Clone my skeleton repository from [GitHub](https://github.com/). This will make a copy of my repository and store it locally.
 ```
-git clone git@github.com:rwilson-ucvts/principles-pset-3-skeleton.git
+  git clone git@github.com:rwilson-ucvts/principles-pset-3-skeleton.git
 ```
 04. The cloning process will have created a folder named `principles-pset-3-skeleton`. Rename this folder to `problem-set-3`.
 ```
-mv problem-set-3-skeleton problem-set-3
+  mv problem-set-3-skeleton problem-set-3
 ```
 05. Change directories to get into your `problem-set-3` folder.
 ```
-cd problem-set-3
+  cd problem-set-3
 ```
 06. Originally, the remote will be pointing at my repository. We need to overwrite this.
 ```
-git remote rename origin upstream
+  git remote rename origin upstream
 ```
 07. Lastly, we need to add a new remote that points at the repository you created earlier. Make sure you replace `YOUR-USERNAME` with your actual [GitHub](https://github.com/) username.
 ```
-git remote add origin git@github.com:YOUR-USERNAME/problem-set-3.git
+  git remote add origin git@github.com:YOUR-USERNAME/problem-set-3.git
 ```
 08. Launch [Atom](https://atom.io/), select `File` and click `Add Project Folder...`.
 09. Navigate to the `APCSP` folder on your `Desktop`, click the `problem-set-3` project folder, and click `Open`.
 
-You should now see a `Project` in the left-hand panel in [Atom](https://atom.io/).
+You should now see a folder named `problem-set-3` in the `Project` panel in [Atom](https://atom.io/).
 
-16. Expand the `Project` folder. You should see a file named `index.html` and a folder named `images`.
+10. Expand the `Project` folder. You should see a file named `index.html`, and another named `README.md` (which is what you're reading right now!). Open the `index.html` file.
 
 If you see the following starter code, then you've correctly cloned and setup your project.
 
@@ -43,7 +43,12 @@ If you see the following starter code, then you've correctly cloned and setup yo
 
 ## Requirements
 
-TBD
+Create a website about a (school-appropriate) topic that interests you. This might be an extracurricular activitiy in which you participate, a sport or instrument you play, or just a hobby of yours. For now, your website should be informative in nature. Later, we'll add some style and creative expression.
+
+More specifically, your website must include and incorporate the following features and elements.
+
+* 4 distinct pages (i.e., `.html` files)
+   - A homepage
 
 ## Deadline
 
