@@ -12,11 +12,11 @@ To get started, you'll need to create a [GitHub](https://github.com/) repository
 02. In GitBash, navigate to your `APCSP` folder.
 03. Clone my skeleton repository from [GitHub](https://github.com/). This will make a copy of my repository and store it locally.
 ```
-  git clone git@github.com:rwilson-ucvts/principles-pset-3-skeleton.git
+  git clone git@github.com:rwilson-ucvts/principles-pset3-skeleton.git
 ```
-04. The cloning process will create a folder named `principles-pset-3-skeleton`. Rename this folder to `problem-set-3`.
+04. The cloning process will create a folder named `principles-pset3-skeleton`. Rename this folder to `problem-set-3`.
 ```
-  mv problem-set-3-skeleton problem-set-3
+  mv principles-pset3-skeleton problem-set-3
 ```
 05. Change directories to get into your `problem-set-3` folder.
 ```
