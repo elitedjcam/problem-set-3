@@ -14,7 +14,7 @@ To get started, you'll need to create a [GitHub](https://github.com/) repository
 ```
   git clone git@github.com:rwilson-ucvts/principles-pset-3-skeleton.git
 ```
-04. The cloning process will have created a folder named `principles-pset-3-skeleton`. Rename this folder to `problem-set-3`.
+04. The cloning process will create a folder named `principles-pset-3-skeleton`. Rename this folder to `problem-set-3`.
 ```
   mv problem-set-3-skeleton problem-set-3
 ```
@@ -22,11 +22,11 @@ To get started, you'll need to create a [GitHub](https://github.com/) repository
 ```
   cd problem-set-3
 ```
-06. Originally, the remote will be pointing at my repository. We need to overwrite this.
+06. The cloning process will add a remote named `origin` that points at my skeleton repository. Rename `origin` to `upstream`.
 ```
   git remote rename origin upstream
 ```
-07. Lastly, we need to add a new remote that points at the repository you created earlier. Make sure you replace `YOUR-USERNAME` with your actual [GitHub](https://github.com/) username.
+07. Add a new remote that points at the `problem-set-3` repository you created earlier. Make sure you replace `YOUR-USERNAME` with your actual [GitHub](https://github.com/) username.
 ```
   git remote add origin git@github.com:YOUR-USERNAME/problem-set-3.git
 ```
@@ -48,14 +48,51 @@ Create a website about a (school-appropriate) topic that interests you. This mig
 More specifically, your website must include and incorporate the following features and elements.
 
 * 4 distinct pages (i.e., `.html` files)
-   - A homepage
+   - 1 page that gives a brief overview of your website topic (i.e., a homepage, which should be written in your `index.html` file)
+   - 3 pages that discuss separate subtopics in greater detail
+* A navigation bar that allows you to navigate to and from each of the 4 pages
+* A unique and descriptive `<title>` for each of the 4 pages
+* At least 3 of the header tags variations: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`
+* At least 7 hyperlinks
+   - At least 4 internal links that use a relative URL: `<a href="/relative/url.html>` or `<a href="#id">`
+   - At least 3 external links that use an absolute URL: `<a href="https://absoluteurl.com">`
+* At least 1 image per page: `<img src="/images/picture.png">`
+   - All images must be stored in a folder named `images` (the use of subfolders within `images` is at your discretion)
+* At least 2 lists
+   - At least 1 ordered list: `<ol>`
+   - At least 1 unordered list: `<ul>`
+* At least 1 horizontal rule: `<hr/>`
+* At least 1 `<table>`
+   - Your `<table`> must include a header (`<thead>`), a body (`<tbody>`), and a footer (`<tfoot>`)
+* A consistent page footer on every page
+   - Your footer must include the copyright symbol and year (i.e., © 2018)
+   - Your footer must include the school (appropriately hyperlinked), and course (i.e., AIT | APSCS)
+   - Your footer must include a contact email (appropriately hyperlinked)
+      * You must not use an actual email (instead, use info@example.com)
+
+To avoid confusion, your directory structure must match the following. If something is followed with a `/`, it is a folder; otherwise, it is a file.
+
+```
+problem-set-3/
+   images/
+      myimage1.png
+      subfolder/
+         myimage2.png
+   index.html
+   mysubtopic1.html
+   mysubtopic2.html
+   mysubtopic3.html
+   README.md
+```
+
+Of course, your filenames will be different than mine. They are alphabetized, so they will likely appear in a different order, too. The `subfolder` inside of the `images` folder is optional. You might find it useful to further categorize your pictures, but it is not required. The image files inside of the `images` and `subfolder` folders are examples. Yours, of course, will be named differently.
 
 ## Deadline
 
 Your Canvas submission is due at or before 11:59pm on your section-specific due date.
-* TBD (A 3/4 & 7/8)
-* TBD (B 3/4 & 7/8)
+* October 9, 2018 (A 3/4 & 7/8)
+* October 10, 2018 (B 3/4 & 7/8)
 
 ### Submission Requirements
 
-All that is required for submission is the URL to your [GitHub](https://github.com/) repository for this problem set.
+All that is required for submission is the top-level URL to your [GitHub](https://github.com/) repository for this problem set.
